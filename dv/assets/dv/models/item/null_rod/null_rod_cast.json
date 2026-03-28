@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld_rod",
+  "textures": {
+    "layer0": "dv:item/null_rod/null_rod_cast"
+  }
+}

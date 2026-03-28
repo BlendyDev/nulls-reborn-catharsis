@@ -63,7 +63,7 @@
     ],
     "fallback": {
       "type": "minecraft:model",
-      "model": "minecraft:block/chain_command_block"
+      "model": "minecraft:block/smooth_stone_slab"
     }
   }
 }

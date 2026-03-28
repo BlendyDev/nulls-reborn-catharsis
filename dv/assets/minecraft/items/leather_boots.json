@@ -1,0 +1,240 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "catharsis:data_type",
+        "data_type": "id",
+        "cases": [
+            {
+                "when": [
+                    "LEATHER_BOOTS:1",
+                    "LEATHER_BOOTS:2",
+                    "LEATHER_BOOTS:3",
+                    "LEATHER_BOOTS:4",
+                    "LEATHER_BOOTS:5",
+                    "LEATHER_BOOTS:6",
+                    "LEATHER_BOOTS:7",
+                    "LEATHER_BOOTS:8",
+                    "LEATHER_BOOTS:9",
+                    "LEATHER_BOOTS:10",
+                    "LEATHER_BOOTS:11",
+                    "LEATHER_BOOTS:12",
+                    "LEATHER_BOOTS:13",
+                    "LEATHER_BOOTS:14",
+                    "LEATHER_BOOTS:15",
+                    "LEATHER_BOOTS:16",
+                    "LEATHER_BOOTS:17",
+                    "LEATHER_BOOTS:18",
+                    "LEATHER_BOOTS:19",
+                    "LEATHER_BOOTS:20",
+                    "LEATHER_BOOTS:21",
+                    "LEATHER_BOOTS:22",
+                    "LEATHER_BOOTS:23",
+                    "LEATHER_BOOTS:24",
+                    "LEATHER_BOOTS:25",
+                    "LEATHER_BOOTS:26",
+                    "LEATHER_BOOTS:27",
+                    "LEATHER_BOOTS:28",
+                    "LEATHER_BOOTS:29",
+                    "LEATHER_BOOTS:30",
+                    "LEATHER_BOOTS:31",
+                    "LEATHER_BOOTS:32",
+                    "LEATHER_BOOTS:33",
+                    "LEATHER_BOOTS:34",
+                    "LEATHER_BOOTS:35",
+                    "LEATHER_BOOTS:36",
+                    "LEATHER_BOOTS:37",
+                    "LEATHER_BOOTS:38",
+                    "LEATHER_BOOTS:39",
+                    "LEATHER_BOOTS:40",
+                    "LEATHER_BOOTS:41",
+                    "LEATHER_BOOTS:42",
+                    "LEATHER_BOOTS:43",
+                    "LEATHER_BOOTS:44",
+                    "LEATHER_BOOTS:45",
+                    "LEATHER_BOOTS:46",
+                    "LEATHER_BOOTS:47",
+                    "LEATHER_BOOTS:48",
+                    "LEATHER_BOOTS:49",
+                    "LEATHER_BOOTS:50",
+                    "LEATHER_BOOTS:51",
+                    "LEATHER_BOOTS:52",
+                    "LEATHER_BOOTS:53",
+                    "LEATHER_BOOTS:54",
+                    "LEATHER_BOOTS:55",
+                    "LEATHER_BOOTS:56",
+                    "LEATHER_BOOTS:57",
+                    "LEATHER_BOOTS:58"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:item/null_boots/null_boots",
+                    "tints": [
+                        {
+                            "type": "minecraft:dye",
+                            "default": -6265536
+                        }
+                    ]
+                }
+            }
+        ],
+        "fallback": {
+            "type": "minecraft:select",
+            "cases": [
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:item/leather_boots_quartz_trim",
+                        "tints": [
+                            {
+                                "type": "minecraft:dye",
+                                "default": -6265536
+                            }
+                        ]
+                    },
+                    "when": "minecraft:quartz"
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:item/leather_boots_iron_trim",
+                        "tints": [
+                            {
+                                "type": "minecraft:dye",
+                                "default": -6265536
+                            }
+                        ]
+                    },
+                    "when": "minecraft:iron"
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:item/leather_boots_netherite_trim",
+                        "tints": [
+                            {
+                                "type": "minecraft:dye",
+                                "default": -6265536
+                            }
+                        ]
+                    },
+                    "when": "minecraft:netherite"
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:item/leather_boots_redstone_trim",
+                        "tints": [
+                            {
+                                "type": "minecraft:dye",
+                                "default": -6265536
+                            }
+                        ]
+                    },
+                    "when": "minecraft:redstone"
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:item/leather_boots_copper_trim",
+                        "tints": [
+                            {
+                                "type": "minecraft:dye",
+                                "default": -6265536
+                            }
+                        ]
+                    },
+                    "when": "minecraft:copper"
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:item/leather_boots_gold_trim",
+                        "tints": [
+                            {
+                                "type": "minecraft:dye",
+                                "default": -6265536
+                            }
+                        ]
+                    },
+                    "when": "minecraft:gold"
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:item/leather_boots_emerald_trim",
+                        "tints": [
+                            {
+                                "type": "minecraft:dye",
+                                "default": -6265536
+                            }
+                        ]
+                    },
+                    "when": "minecraft:emerald"
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:item/leather_boots_diamond_trim",
+                        "tints": [
+                            {
+                                "type": "minecraft:dye",
+                                "default": -6265536
+                            }
+                        ]
+                    },
+                    "when": "minecraft:diamond"
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:item/leather_boots_lapis_trim",
+                        "tints": [
+                            {
+                                "type": "minecraft:dye",
+                                "default": -6265536
+                            }
+                        ]
+                    },
+                    "when": "minecraft:lapis"
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:item/leather_boots_amethyst_trim",
+                        "tints": [
+                            {
+                                "type": "minecraft:dye",
+                                "default": -6265536
+                            }
+                        ]
+                    },
+                    "when": "minecraft:amethyst"
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:item/leather_boots_resin_trim",
+                        "tints": [
+                            {
+                                "type": "minecraft:dye",
+                                "default": -6265536
+                            }
+                        ]
+                    },
+                    "when": "minecraft:resin"
+                }
+            ],
+            "fallback": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/leather_boots",
+                "tints": [
+                    {
+                        "type": "minecraft:dye",
+                        "default": -6265536
+                    }
+                ]
+            },
+            "property": "minecraft:trim_material"
+        }
+    }
+}

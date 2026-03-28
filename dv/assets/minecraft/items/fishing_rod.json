@@ -1,0 +1,102 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "catharsis:data_type",
+        "data_type": "id",
+        "cases": [
+            {
+                "when": [
+                    "FISHING_ROD:1"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:item/null_rod/traox_rod"
+                }
+            },
+            {
+                "when": [
+                    "FISHING_ROD:2",
+                    "FISHING_ROD:3",
+                    "FISHING_ROD:4",
+                    "FISHING_ROD:5",
+                    "FISHING_ROD:6",
+                    "FISHING_ROD:7",
+                    "FISHING_ROD:8",
+                    "FISHING_ROD:9",
+                    "FISHING_ROD:10",
+                    "FISHING_ROD:11",
+                    "FISHING_ROD:12",
+                    "FISHING_ROD:13",
+                    "FISHING_ROD:14",
+                    "FISHING_ROD:15",
+                    "FISHING_ROD:16",
+                    "FISHING_ROD:17",
+                    "FISHING_ROD:18",
+                    "FISHING_ROD:19",
+                    "FISHING_ROD:20",
+                    "FISHING_ROD:21",
+                    "FISHING_ROD:22",
+                    "FISHING_ROD:23",
+                    "FISHING_ROD:24",
+                    "FISHING_ROD:25",
+                    "FISHING_ROD:26",
+                    "FISHING_ROD:27",
+                    "FISHING_ROD:28",
+                    "FISHING_ROD:29",
+                    "FISHING_ROD:30",
+                    "FISHING_ROD:31",
+                    "FISHING_ROD:32",
+                    "FISHING_ROD:33",
+                    "FISHING_ROD:34",
+                    "FISHING_ROD:35",
+                    "FISHING_ROD:36",
+                    "FISHING_ROD:37",
+                    "FISHING_ROD:38",
+                    "FISHING_ROD:39",
+                    "FISHING_ROD:40",
+                    "FISHING_ROD:41",
+                    "FISHING_ROD:42",
+                    "FISHING_ROD:43",
+                    "FISHING_ROD:44",
+                    "FISHING_ROD:45",
+                    "FISHING_ROD:46",
+                    "FISHING_ROD:47",
+                    "FISHING_ROD:48",
+                    "FISHING_ROD:49",
+                    "FISHING_ROD:50",
+                    "FISHING_ROD:51",
+                    "FISHING_ROD:52",
+                    "FISHING_ROD:53",
+                    "FISHING_ROD:54",
+                    "FISHING_ROD:55",
+                    "FISHING_ROD:56",
+                    "FISHING_ROD:57"
+                ],
+                "model": {
+                    "type": "minecraft:condition",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "dv:item/null_rod/null_rod"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "dv:item/null_rod/null_rod_cast"
+                    },
+                    "property": "minecraft:fishing_rod/cast"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "minecraft:condition",
+            "on_false": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/fishing_rod"
+            },
+            "on_true": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/fishing_rod_cast"
+            },
+            "property": "minecraft:fishing_rod/cast"
+        }
+    }
+}

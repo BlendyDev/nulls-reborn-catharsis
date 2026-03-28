@@ -1,0 +1,40 @@
+{
+    "pack": {
+        "description": "Use Catharsis v1.0.0-beta10",
+        "pack_format": 15,
+        "supported_formats": [
+            15,
+            255
+        ],
+        "min_format": 15,
+        "max_format": 255
+    },
+    "catharsis:pack/v1": {
+        "id": "nulls-reborn",
+        "version": "v2.6",
+        "dependencies": {
+            "catharsis": ">=1.0.0-beta.4"
+        },
+        "config": [
+            {
+                "type": "boolean",
+                "id": "nulls-reborn-dv",
+                "title": "DV",
+                "description": "Adds damage value indicators",
+                "default": true
+            }
+        ]
+    },
+    "fabric:overlays": {
+        "entries": [
+            {
+                "directory": "dv",
+                "condition": {
+                    "condition": "catharsis:config",
+                    "pack": "nulls-reborn",
+                    "id": "nulls-reborn-dv"
+                }
+            }
+        ]
+    }
+}

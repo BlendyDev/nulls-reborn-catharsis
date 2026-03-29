@@ -1,0 +1,13 @@
+{
+    "variants": {
+        "type=bottom": {
+            "model": "dv:block/alpha_slab/alpha_slab"
+        },
+        "type=double": {
+            "model": "dv:block/alpha_slab/double_alpha_slab"
+        },
+        "type=top": {
+            "model": "dv:block/alpha_slab/top_alpha_slab"
+        }
+    }
+}

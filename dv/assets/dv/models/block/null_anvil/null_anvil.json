@@ -5,7 +5,8 @@
 		"0": "minecraft:block/anvil",
 		"1": "dv:block/overlay/null_overlay",
 		"2": "dv:block/overlay/null_background",
-		"top": "minecraft:block/anvil_top"
+		"top": "minecraft:block/anvil_top",
+		"particle": "minecraft:block/anvil"
     },
 	"display": {
         "fixed": {

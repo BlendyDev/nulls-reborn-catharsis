@@ -1,7 +1,8 @@
 {
  "parent": "block/slab",
  "textures": {
-  "0": "dv:block/alpha_slab/alpha_slab"
+  "0": "dv:block/alpha_slab/alpha_slab",
+  "particle": "dv:block/alpha_slab/alpha_slab"
  },
  "display": {
   "thirdperson": {

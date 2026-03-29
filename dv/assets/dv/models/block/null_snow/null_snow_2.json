@@ -2,7 +2,8 @@
     "parent": "block/cube",
     "textures": {
         "0": "dv:block/overlay/null_overlay",
-        "1": "minecraft:block/snow"
+        "1": "minecraft:block/snow",
+        "particle": "minecraft:block/snow"
     },
     "display": {
         "thirdperson": {

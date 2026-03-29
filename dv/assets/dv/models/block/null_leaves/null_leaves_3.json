@@ -4,7 +4,8 @@
     "parent": "block/cube",
     "textures": {
         "0": "dv:block/overlay/null_overlay",
-        "1": "minecraft:block/pale_oak_leaves"
+        "1": "minecraft:block/pale_oak_leaves",
+        "particle": "minecraft:block/pale_oak_leaves"
     },
     "elements": [
         {

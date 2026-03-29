@@ -3,7 +3,8 @@
     "parent": "block/slab",
     "textures": {
         "0": "dv:block/overlay/null_overlay",
-        "bottom": "minecraft:block/crimson_planks"
+        "bottom": "minecraft:block/crimson_planks",
+        "particle": "minecraft:block/crimson_planks"
     },
     "display": {
         "thirdperson": {

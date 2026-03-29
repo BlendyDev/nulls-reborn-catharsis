@@ -3,7 +3,8 @@
     "textures": {
         "0": "dv:block/overlay/overlay15",
         "1": "dv:block/overlay/null_overlay",
-        "2": "minecraft:block/brown_mushroom_block"
+        "2": "minecraft:block/brown_mushroom_block",
+        "particle": "minecraft:block/brown_mushroom_block"
     },
     "display": {
         "thirdperson": {

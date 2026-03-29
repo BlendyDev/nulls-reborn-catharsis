@@ -1,0 +1,148 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "catharsis:data_type",
+        "data_type": "id",
+        "cases": [
+            {
+                "when": [
+                    "STONE_SLAB2:1"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_red_sandstone_slab/null_red_sandstone_slab_1"
+                }
+            },
+            {
+                "when": [
+                    "STONE_SLAB2:2"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_red_sandstone_slab/null_red_sandstone_slab_2"
+                }
+            },
+            {
+                "when": [
+                    "STONE_SLAB2:3"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_red_sandstone_slab/null_red_sandstone_slab_3"
+                }
+            },
+            {
+                "when": [
+                    "STONE_SLAB2:4"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_red_sandstone_slab/null_red_sandstone_slab_4"
+                }
+            },
+            {
+                "when": [
+                    "STONE_SLAB2:5"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_red_sandstone_slab/null_red_sandstone_slab_5"
+                }
+            },
+            {
+                "when": [
+                    "STONE_SLAB2:6"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_red_sandstone_slab/null_red_sandstone_slab_6"
+                }
+            },
+            {
+                "when": [
+                    "STONE_SLAB2:7"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_red_sandstone_slab/null_red_sandstone_slab_7"
+                }
+            },
+            {
+                "when": [
+                    "STONE_SLAB2:8"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_red_sandstone_slab/null_red_sandstone_slab_8"
+                }
+            },
+            {
+                "when": [
+                    "STONE_SLAB2:9"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_red_sandstone_slab/null_red_sandstone_slab_9"
+                }
+            },
+            {
+                "when": [
+                    "STONE_SLAB2:10"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_red_sandstone_slab/null_red_sandstone_slab_10"
+                }
+            },
+            {
+                "when": [
+                    "STONE_SLAB2:11"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_red_sandstone_slab/null_red_sandstone_slab_11"
+                }
+            },
+            {
+                "when": [
+                    "STONE_SLAB2:12"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_red_sandstone_slab/null_red_sandstone_slab_12"
+                }
+            },
+            {
+                "when": [
+                    "STONE_SLAB2:13"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_red_sandstone_slab/null_red_sandstone_slab_13"
+                }
+            },
+            {
+                "when": [
+                    "STONE_SLAB2:14"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_red_sandstone_slab/null_red_sandstone_slab_14"
+                }
+            },
+            {
+                "when": [
+                    "STONE_SLAB2:15"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_red_sandstone_slab/null_red_sandstone_slab_15"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:block/red_sandstone_slab"
+        }
+    }
+}

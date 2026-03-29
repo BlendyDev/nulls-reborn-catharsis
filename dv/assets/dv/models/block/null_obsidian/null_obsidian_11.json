@@ -3,7 +3,8 @@
 	"textures": {
 		"0": "dv:block/overlay/overlay11",
 		"1": "dv:block/overlay/null_overlay",
-		"2": "minecraft:block/obsidian"
+		"2": "minecraft:block/obsidian",
+		"particle": "minecraft:block/obsidian"
 	},
 	"display": {
 		"thirdperson": {

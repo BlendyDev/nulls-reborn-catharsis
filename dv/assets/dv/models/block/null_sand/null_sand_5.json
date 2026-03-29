@@ -1,10 +1,10 @@
 {
 	"parent": "block/cube",
 	"textures": {
-		"0": "dv:block/overlay/overlay6",
+		"0": "dv:block/overlay/overlay5",
 		"1": "dv:block/overlay/null_overlay",
-		"2": "minecraft:block/obsidian",
-		"particle": "minecraft:block/obsidian"
+		"2": "minecraft:block/sand",
+		"particle": "minecraft:block/sand"
 	},
 	"display": {
 		"thirdperson": {

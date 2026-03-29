@@ -1,0 +1,85 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "catharsis:data_type",
+        "data_type": "id",
+        "cases": [
+            {
+                "when": [
+                    "SAND:2"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_sand/null_sand_2"
+                }
+            },
+            {
+                "when": [
+                    "SAND:3"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_sand/null_sand_3"
+                }
+            },
+            {
+                "when": [
+                    "SAND:4"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_sand/null_sand_4"
+                }
+            },
+            {
+                "when": [
+                    "SAND:5"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_sand/null_sand_5"
+                }
+            },
+            {
+                "when": [
+                    "SAND:6"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_sand/null_sand_6"
+                }
+            },
+            {
+                "when": [
+                    "SAND:7"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_sand/null_sand_7"
+                }
+            },
+            {
+                "when": [
+                    "SAND:8"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_sand/null_sand_8"
+                }
+            },
+            {
+                "when": [
+                    "SAND:9"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_sand/null_sand_9"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:block/sand"
+        }
+    }
+}

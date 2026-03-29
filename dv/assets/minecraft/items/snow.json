@@ -1,0 +1,76 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "catharsis:data_type",
+        "data_type": "id",
+        "cases": [
+            {
+                "when": [
+                    "SNOW:1"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_snow/null_snow_1"
+                }
+            },
+            {
+                "when": [
+                    "SNOW:2"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_snow/null_snow_2"
+                }
+            },
+            {
+                "when": [
+                    "SNOW:3"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_snow/null_snow_3"
+                }
+            },
+            {
+                "when": [
+                    "SNOW:4"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_snow/null_snow_4"
+                }
+            },
+            {
+                "when": [
+                    "SNOW:5"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_snow/null_snow_5"
+                }
+            },
+            {
+                "when": [
+                    "SNOW:6"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_snow/null_snow_6"
+                }
+            },
+            {
+                "when": [
+                    "SNOW:7"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_snow/null_snow_7"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:block/snow_height2"
+        }
+    }
+}

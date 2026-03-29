@@ -1,0 +1,31 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "catharsis:data_type",
+        "data_type": "id",
+        "cases": [
+            {
+                "when": [
+                    "SAPLING:6"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "dv:item/null_sapling/null_sapling_6"
+                }
+            },
+            {
+                "when": [
+                    "SAPLING:7"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "dv:item/null_sapling/null_sapling_7"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/oak_sapling"
+        }
+    }
+}

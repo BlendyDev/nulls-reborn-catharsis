@@ -1,0 +1,31 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "catharsis:data_type",
+        "data_type": "id",
+        "cases": [
+            {
+                "when": [
+                    "HUGE_MUSHROOM_2:14"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_red_mushroom/null_red_mushroom_14"
+                }
+            },
+            {
+                "when": [
+                    "HUGE_MUSHROOM_2:15"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_red_mushroom/null_red_mushroom_15"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:block/red_mushroom_block_inventory"
+        }
+    }
+}

@@ -6,71 +6,71 @@
         "cases": [
             {
                 "when": [
-                    "RED_SANDSTONE:3"
+                    "SANDSTONE:3"
                 ],
                 "model": {
                     "type": "minecraft:model",
-                    "model": "dv:block/null_red_sandstone/null_red_sandstone_3"
+                    "model": "dv:block/null_sandstone/null_sandstone_3"
                 }
             },
             {
                 "when": [
-                    "RED_SANDSTONE:4"
+                    "SANDSTONE:4"
                 ],
                 "model": {
                     "type": "minecraft:model",
-                    "model": "dv:block/null_red_sandstone/null_red_sandstone_4"
+                    "model": "dv:block/null_sandstone/null_sandstone_4"
                 }
             },
             {
                 "when": [
-                    "RED_SANDSTONE:5"
+                    "SANDSTONE:5"
                 ],
                 "model": {
                     "type": "minecraft:model",
-                    "model": "dv:block/null_red_sandstone/null_red_sandstone_5"
+                    "model": "dv:block/null_sandstone/null_sandstone_5"
                 }
             },
             {
                 "when": [
-                    "RED_SANDSTONE:6"
+                    "SANDSTONE:6"
                 ],
                 "model": {
                     "type": "minecraft:model",
-                    "model": "dv:block/null_red_sandstone/null_red_sandstone_6"
+                    "model": "dv:block/null_sandstone/null_sandstone_6"
                 }
             },
             {
                 "when": [
-                    "RED_SANDSTONE:7"
+                    "SANDSTONE:7"
                 ],
                 "model": {
                     "type": "minecraft:model",
-                    "model": "dv:block/null_red_sandstone/null_red_sandstone_7"
+                    "model": "dv:block/null_sandstone/null_sandstone_7"
                 }
             },
             {
                 "when": [
-                    "RED_SANDSTONE:8"
+                    "SANDSTONE:8"
                 ],
                 "model": {
                     "type": "minecraft:model",
-                    "model": "dv:block/null_red_sandstone/null_red_sandstone_8"
+                    "model": "dv:block/null_sandstone/null_sandstone_8"
                 }
             },
             {
                 "when": [
-                    "RED_SANDSTONE:9"
+                    "SANDSTONE:9"
                 ],
                 "model": {
                     "type": "minecraft:model",
-                    "model": "dv:block/null_red_sandstone/null_red_sandstone_9"
+                    "model": "dv:block/null_sandstone/null_sandstone_9"
                 }
             }
         ],
         "fallback": {
             "type": "minecraft:model",
-            "model": "minecraft:block/red_sandstone"
+            "model": "minecraft:block/sandstone"
         }
     }
 }

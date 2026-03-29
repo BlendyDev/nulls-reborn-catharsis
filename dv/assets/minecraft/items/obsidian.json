@@ -1,0 +1,148 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "catharsis:data_type",
+        "data_type": "id",
+        "cases": [
+            {
+                "when": [
+                    "OBSIDIAN:1"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_obsidian/null_obsidian_1"
+                }
+            },
+            {
+                "when": [
+                    "OBSIDIAN:2"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_obsidian/null_obsidian_2"
+                }
+            },
+            {
+                "when": [
+                    "OBSIDIAN:3"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_obsidian/null_obsidian_3"
+                }
+            },
+            {
+                "when": [
+                    "OBSIDIAN:4"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_obsidian/null_obsidian_4"
+                }
+            },
+            {
+                "when": [
+                    "OBSIDIAN:5"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_obsidian/null_obsidian_5"
+                }
+            },
+            {
+                "when": [
+                    "OBSIDIAN:6"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_obsidian/null_obsidian_6"
+                }
+            },
+            {
+                "when": [
+                    "OBSIDIAN:7"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_obsidian/null_obsidian_7"
+                }
+            },
+            {
+                "when": [
+                    "OBSIDIAN:8"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_obsidian/null_obsidian_8"
+                }
+            },
+            {
+                "when": [
+                    "OBSIDIAN:9"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_obsidian/null_obsidian_9"
+                }
+            },
+            {
+                "when": [
+                    "OBSIDIAN:10"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_obsidian/null_obsidian_10"
+                }
+            },
+            {
+                "when": [
+                    "OBSIDIAN:11"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_obsidian/null_obsidian_11"
+                }
+            },
+            {
+                "when": [
+                    "OBSIDIAN:12"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_obsidian/null_obsidian_12"
+                }
+            },
+            {
+                "when": [
+                    "OBSIDIAN:13"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_obsidian/null_obsidian_13"
+                }
+            },
+            {
+                "when": [
+                    "OBSIDIAN:14"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_obsidian/null_obsidian_14"
+                }
+            },
+            {
+                "when": [
+                    "OBSIDIAN:15"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_obsidian/null_obsidian_15"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:block/obsidian"
+        }
+    }
+}

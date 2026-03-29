@@ -1,0 +1,76 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "catharsis:data_type",
+        "data_type": "id",
+        "cases": [
+            {
+                "when": [
+                    "DIRT:3"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_dirt/null_dirt_3"
+                }
+            },
+            {
+                "when": [
+                    "DIRT:4"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_dirt/null_dirt_4"
+                }
+            },
+            {
+                "when": [
+                    "DIRT:5"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_dirt/null_dirt_5"
+                }
+            },
+            {
+                "when": [
+                    "DIRT:6"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_dirt/null_dirt_6"
+                }
+            },
+            {
+                "when": [
+                    "DIRT:7"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_dirt/null_dirt_7"
+                }
+            },
+            {
+                "when": [
+                    "DIRT:8"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_dirt/null_dirt_8"
+                }
+            },
+            {
+                "when": [
+                    "DIRT:9"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_dirt/null_dirt_9"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:block/dirt"
+        }
+    }
+}

@@ -1,0 +1,85 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "catharsis:data_type",
+        "data_type": "id",
+        "cases": [
+            {
+                "when": [
+                    "SPONGE:2"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_sponge/null_sponge_2"
+                }
+            },
+            {
+                "when": [
+                    "SPONGE:3"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_sponge/null_sponge_3"
+                }
+            },
+            {
+                "when": [
+                    "SPONGE:4"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_sponge/null_sponge_4"
+                }
+            },
+            {
+                "when": [
+                    "SPONGE:5"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_sponge/null_sponge_5"
+                }
+            },
+            {
+                "when": [
+                    "SPONGE:6"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_sponge/null_sponge_6"
+                }
+            },
+            {
+                "when": [
+                    "SPONGE:7"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_sponge/null_sponge_7"
+                }
+            },
+            {
+                "when": [
+                    "SPONGE:8"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_sponge/null_sponge_8"
+                }
+            },
+            {
+                "when": [
+                    "SPONGE:9"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_sponge/null_sponge_9"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:block/sponge"
+        }
+    }
+}

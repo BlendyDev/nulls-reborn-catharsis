@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer1": "minecraft:block/wither_rose",
+    "layer0": "dv:block/overlay/null_background"
+  }
+}

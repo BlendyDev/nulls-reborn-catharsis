@@ -1,0 +1,148 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "catharsis:data_type",
+        "data_type": "id",
+        "cases": [
+            {
+                "when": [
+                    "YELLOW_FLOWER:1"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:item/null_dandelion/null_dandelion_1"
+                }
+            },
+            {
+                "when": [
+                    "YELLOW_FLOWER:2"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:item/null_dandelion/null_dandelion_2"
+                }
+            },
+            {
+                "when": [
+                    "YELLOW_FLOWER:3"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:item/null_dandelion/null_dandelion_3"
+                }
+            },
+            {
+                "when": [
+                    "YELLOW_FLOWER:4"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:item/null_dandelion/null_dandelion_4"
+                }
+            },
+            {
+                "when": [
+                    "YELLOW_FLOWER:5"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:item/null_dandelion/null_dandelion_5"
+                }
+            },
+            {
+                "when": [
+                    "YELLOW_FLOWER:6"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:item/null_dandelion/null_dandelion_6"
+                }
+            },
+            {
+                "when": [
+                    "YELLOW_FLOWER:7"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:item/null_dandelion/null_dandelion_7"
+                }
+            },
+            {
+                "when": [
+                    "YELLOW_FLOWER:8"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:item/null_dandelion/null_dandelion_8"
+                }
+            },
+            {
+                "when": [
+                    "YELLOW_FLOWER:9"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:item/null_dandelion/null_dandelion_9"
+                }
+            },
+            {
+                "when": [
+                    "YELLOW_FLOWER:10"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:item/null_dandelion/null_dandelion_10"
+                }
+            },
+            {
+                "when": [
+                    "YELLOW_FLOWER:11"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:item/null_dandelion/null_dandelion_11"
+                }
+            },
+            {
+                "when": [
+                    "YELLOW_FLOWER:12"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:item/null_dandelion/null_dandelion_12"
+                }
+            },
+            {
+                "when": [
+                    "YELLOW_FLOWER:13"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:item/null_dandelion/null_dandelion_13"
+                }
+            },
+            {
+                "when": [
+                    "YELLOW_FLOWER:14"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:item/null_dandelion/null_dandelion_14"
+                }
+            },
+            {
+                "when": [
+                    "YELLOW_FLOWER:15"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:item/null_dandelion/null_dandelion_15"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/poppy"
+        }
+    }
+}

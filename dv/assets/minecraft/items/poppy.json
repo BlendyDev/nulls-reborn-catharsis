@@ -1,0 +1,76 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "catharsis:data_type",
+        "data_type": "id",
+        "cases": [
+            {
+                "when": [
+                    "RED_ROSE:9"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:item/null_rose/null_rose_9"
+                }
+            },
+            {
+                "when": [
+                    "RED_ROSE:10"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:item/null_rose/null_rose_10"
+                }
+            },
+            {
+                "when": [
+                    "RED_ROSE:11"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:item/null_rose/null_rose_11"
+                }
+            },
+            {
+                "when": [
+                    "RED_ROSE:12"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:item/null_rose/null_rose_12"
+                }
+            },
+            {
+                "when": [
+                    "RED_ROSE:13"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:item/null_rose/null_rose_13"
+                }
+            },
+            {
+                "when": [
+                    "RED_ROSE:14"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:item/null_rose/null_rose_14"
+                }
+            },
+            {
+                "when": [
+                    "RED_ROSE:15"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:item/null_rose/null_rose_15"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/poppy"
+        }
+    }
+}

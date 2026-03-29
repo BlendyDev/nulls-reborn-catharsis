@@ -1,0 +1,103 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "catharsis:data_type",
+        "data_type": "id",
+        "cases": [
+            {
+                "when": [
+                    "WOOD_STEP:6"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_wood_step/null_wood_step_6"
+                }
+            },
+            {
+                "when": [
+                    "WOOD_STEP:7"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_wood_step/null_wood_step_7"
+                }
+            },
+            {
+                "when": [
+                    "WOOD_STEP:8"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_wood_step/null_wood_step_8"
+                }
+            },
+            {
+                "when": [
+                    "WOOD_STEP:9"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_wood_step/null_wood_step_9"
+                }
+            },
+            {
+                "when": [
+                    "WOOD_STEP:10"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_wood_step/null_wood_step_10"
+                }
+            },
+            {
+                "when": [
+                    "WOOD_STEP:11"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_wood_step/null_wood_step_11"
+                }
+            },
+            {
+                "when": [
+                    "WOOD_STEP:12"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_wood_step/null_wood_step_12"
+                }
+            },
+            {
+                "when": [
+                    "WOOD_STEP:13"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_wood_step/null_wood_step_13"
+                }
+            },
+            {
+                "when": [
+                    "WOOD_STEP:14"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_wood_step/null_wood_step_14"
+                }
+            },
+            {
+                "when": [
+                    "WOOD_STEP:15"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_wood_step/null_wood_step_15"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:block/oak_slab"
+        }
+    }
+}

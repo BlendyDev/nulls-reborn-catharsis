@@ -1,0 +1,40 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "catharsis:data_type",
+        "data_type": "id",
+        "cases": [
+            {
+                "when": [
+                    "HAY_BLOCK:1"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_hay/null_hay_1"
+                }
+            },
+            {
+                "when": [
+                    "HAY_BLOCK:2"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_hay/null_hay_2"
+                }
+            },
+            {
+                "when": [
+                    "HAY_BLOCK:3"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_hay/null_hay_3"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:block/hay_block"
+        }
+    }
+}

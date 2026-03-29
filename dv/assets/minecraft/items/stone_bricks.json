@@ -1,0 +1,121 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "catharsis:data_type",
+        "data_type": "id",
+        "cases": [
+            {
+                "when": [
+                    "SMOOTH_BRICK:4"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_stone_brick/null_stone_brick_4"
+                }
+            },
+            {
+                "when": [
+                    "SMOOTH_BRICK:5"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_stone_brick/null_stone_brick_5"
+                }
+            },
+            {
+                "when": [
+                    "SMOOTH_BRICK:6"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_stone_brick/null_stone_brick_6"
+                }
+            },
+            {
+                "when": [
+                    "SMOOTH_BRICK:7"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_stone_brick/null_stone_brick_7"
+                }
+            },
+            {
+                "when": [
+                    "SMOOTH_BRICK:8"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_stone_brick/null_stone_brick_8"
+                }
+            },
+            {
+                "when": [
+                    "SMOOTH_BRICK:9"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_stone_brick/null_stone_brick_9"
+                }
+            },
+            {
+                "when": [
+                    "SMOOTH_BRICK:10"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_stone_brick/null_stone_brick_10"
+                }
+            },
+            {
+                "when": [
+                    "SMOOTH_BRICK:11"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_stone_brick/null_stone_brick_11"
+                }
+            },
+            {
+                "when": [
+                    "SMOOTH_BRICK:12"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_stone_brick/null_stone_brick_12"
+                }
+            },
+            {
+                "when": [
+                    "SMOOTH_BRICK:13"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_stone_brick/null_stone_brick_13"
+                }
+            },
+            {
+                "when": [
+                    "SMOOTH_BRICK:14"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_stone_brick/null_stone_brick_14"
+                }
+            },
+            {
+                "when": [
+                    "SMOOTH_BRICK:15"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_stone_brick/null_stone_brick_15"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:block/stone_bricks"
+        }
+    }
+}

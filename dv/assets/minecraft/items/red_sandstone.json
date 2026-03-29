@@ -1,0 +1,76 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "catharsis:data_type",
+        "data_type": "id",
+        "cases": [
+            {
+                "when": [
+                    "RED_SANDSTONE:3"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_red_sandstone/null_red_sandstone_3"
+                }
+            },
+            {
+                "when": [
+                    "RED_SANDSTONE:4"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_red_sandstone/null_red_sandstone_4"
+                }
+            },
+            {
+                "when": [
+                    "RED_SANDSTONE:5"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_red_sandstone/null_red_sandstone_5"
+                }
+            },
+            {
+                "when": [
+                    "RED_SANDSTONE:6"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_red_sandstone/null_red_sandstone_6"
+                }
+            },
+            {
+                "when": [
+                    "RED_SANDSTONE:7"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_red_sandstone/null_red_sandstone_7"
+                }
+            },
+            {
+                "when": [
+                    "RED_SANDSTONE:8"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_red_sandstone/null_red_sandstone_8"
+                }
+            },
+            {
+                "when": [
+                    "RED_SANDSTONE:9"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_red_sandstone/null_red_sandstone_9"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:block/hay_block"
+        }
+    }
+}

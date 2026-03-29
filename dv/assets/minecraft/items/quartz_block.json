@@ -1,0 +1,58 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "catharsis:data_type",
+        "data_type": "id",
+        "cases": [
+            {
+                "when": [
+                    "QUARTZ_BLOCK:5"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_quartz_block/null_quartz_block_5"
+                }
+            },
+            {
+                "when": [
+                    "QUARTZ_BLOCK:6"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_quartz_block/null_quartz_block_6"
+                }
+            },
+            {
+                "when": [
+                    "QUARTZ_BLOCK:7"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_quartz_block/null_quartz_block_7"
+                }
+            },
+            {
+                "when": [
+                    "QUARTZ_BLOCK:8"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_quartz_block/null_quartz_block_8"
+                }
+            },
+            {
+                "when": [
+                    "QUARTZ_BLOCK:9"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_quartz_block/null_quartz_block_9"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:block/quartz_block"
+        }
+    }
+}

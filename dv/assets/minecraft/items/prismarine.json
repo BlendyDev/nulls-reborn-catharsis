@@ -1,0 +1,76 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "catharsis:data_type",
+        "data_type": "id",
+        "cases": [
+            {
+                "when": [
+                    "PRISMARINE:3"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_prismarine/null_prismarine_3"
+                }
+            },
+            {
+                "when": [
+                    "PRISMARINE:4"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_prismarine/null_prismarine_4"
+                }
+            },
+            {
+                "when": [
+                    "PRISMARINE:5"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_prismarine/null_prismarine_5"
+                }
+            },
+            {
+                "when": [
+                    "PRISMARINE:6"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_prismarine/null_prismarine_6"
+                }
+            },
+            {
+                "when": [
+                    "PRISMARINE:7"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_prismarine/null_prismarine_7"
+                }
+            },
+            {
+                "when": [
+                    "PRISMARINE:8"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_prismarine/null_prismarine_8"
+                }
+            },
+            {
+                "when": [
+                    "PRISMARINE:9"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_prismarine/null_prismarine_9"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:block/prismarine"
+        }
+    }
+}

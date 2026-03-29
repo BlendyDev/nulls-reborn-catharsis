@@ -1,0 +1,139 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "catharsis:data_type",
+        "data_type": "id",
+        "cases": [
+            {
+                "when": [
+                    "COBBLE_WALL:2"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_cobblestone_wall/null_cobblestone_wall_2"
+                }
+            },
+            {
+                "when": [
+                    "COBBLE_WALL:3"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_cobblestone_wall/null_cobblestone_wall_3"
+                }
+            },
+            {
+                "when": [
+                    "COBBLE_WALL:4"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_cobblestone_wall/null_cobblestone_wall_4"
+                }
+            },
+            {
+                "when": [
+                    "COBBLE_WALL:5"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_cobblestone_wall/null_cobblestone_wall_5"
+                }
+            },
+            {
+                "when": [
+                    "COBBLE_WALL:6"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_cobblestone_wall/null_cobblestone_wall_6"
+                }
+            },
+            {
+                "when": [
+                    "COBBLE_WALL:7"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_cobblestone_wall/null_cobblestone_wall_7"
+                }
+            },
+            {
+                "when": [
+                    "COBBLE_WALL:8"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_cobblestone_wall/null_cobblestone_wall_8"
+                }
+            },
+            {
+                "when": [
+                    "COBBLE_WALL:9"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_cobblestone_wall/null_cobblestone_wall_9"
+                }
+            },
+            {
+                "when": [
+                    "COBBLE_WALL:10"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_cobblestone_wall/null_cobblestone_wall_10"
+                }
+            },
+            {
+                "when": [
+                    "COBBLE_WALL:11"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_cobblestone_wall/null_cobblestone_wall_11"
+                }
+            },
+            {
+                "when": [
+                    "COBBLE_WALL:12"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_cobblestone_wall/null_cobblestone_wall_12"
+                }
+            },
+            {
+                "when": [
+                    "COBBLE_WALL:13"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_cobblestone_wall/null_cobblestone_wall_13"
+                }
+            },
+            {
+                "when": [
+                    "COBBLE_WALL:14"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_cobblestone_wall/null_cobblestone_wall_14"
+                }
+            },
+            {
+                "when": [
+                    "COBBLE_WALL:15"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_cobblestone_wall/null_cobblestone_wall_15"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:block/cobblestone_wall_inventory"
+        }
+    }
+}

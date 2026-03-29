@@ -4,8 +4,8 @@
     "parent": "block/block",
     "textures": {
         "1": "dv:block/overlay/null_overlay",
-        "particle": "block/warped_planks",
-        "side": "block/warped_planks"
+        "particle": "block/pale_oak_planks",
+        "side": "block/pale_oak_planks"
     },
     "elements": [
         {

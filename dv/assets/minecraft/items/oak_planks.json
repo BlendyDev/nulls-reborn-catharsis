@@ -1,0 +1,49 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "catharsis:data_type",
+        "data_type": "id",
+        "cases": [
+            {
+                "when": [
+                    "WOOD:6"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_planks/null_planks_6"
+                }
+            },
+            {
+                "when": [
+                    "WOOD:7"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_planks/null_planks_7"
+                }
+            },
+            {
+                "when": [
+                    "WOOD:8"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_planks/null_planks_8"
+                }
+            },
+            {
+                "when": [
+                    "WOOD:9"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_planks/null_planks_9"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:block/oak_planks"
+        }
+    }
+}

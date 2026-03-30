@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "dv:item/null_spawn_egg/null_spawn_egg_97"
+  }
+}

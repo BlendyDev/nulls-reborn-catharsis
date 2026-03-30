@@ -1,0 +1,51 @@
+{
+    "model": {
+        "type": "minecraft:condition",
+        "property": "catharsis:is_data_type_present",
+        "data_type": "skyblock_id",
+        "on_true": {
+            "type": "minecraft:select",
+            "property": "catharsis:data_type",
+            "data_type": "id",
+            "cases": [
+                {
+                    "when": [
+                        "MAP"
+                    ],
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:item/filled_map",
+                        "tints": [
+                            {
+                                "type": "minecraft:constant",
+                                "value": -1
+                            },
+                            {
+                                "type": "minecraft:map_color",
+                                "default": 4603950
+                            }
+                        ]
+                    }
+                }
+            ],
+            "fallback": {
+                "type": "minecraft:model",
+                "model": "dv:item/null_map/null_map"
+            }
+        },
+        "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/filled_map",
+            "tints": [
+                {
+                    "type": "minecraft:constant",
+                    "value": -1
+                },
+                {
+                    "type": "minecraft:map_color",
+                    "default": 4603950
+                }
+            ]
+        }
+    }
+}

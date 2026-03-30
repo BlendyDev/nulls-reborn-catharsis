@@ -1,0 +1,76 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "catharsis:data_type",
+        "data_type": "id",
+        "cases": [
+            {
+                "when": [
+                    "RED_SANDSTONE_STAIRS:1"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_red_sandstone_stairs/null_red_sandstone_stairs_1"
+                }
+            },
+            {
+                "when": [
+                    "RED_SANDSTONE_STAIRS:2"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_red_sandstone_stairs/null_red_sandstone_stairs_2"
+                }
+            },
+            {
+                "when": [
+                    "RED_SANDSTONE_STAIRS:3"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_red_sandstone_stairs/null_red_sandstone_stairs_3"
+                }
+            },
+            {
+                "when": [
+                    "RED_SANDSTONE_STAIRS:4"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_red_sandstone_stairs/null_red_sandstone_stairs_4"
+                }
+            },
+            {
+                "when": [
+                    "RED_SANDSTONE_STAIRS:5"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_red_sandstone_stairs/null_red_sandstone_stairs_5"
+                }
+            },
+            {
+                "when": [
+                    "RED_SANDSTONE_STAIRS:6"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_red_sandstone_stairs/null_red_sandstone_stairs_6"
+                }
+            },
+            {
+                "when": [
+                    "RED_SANDSTONE_STAIRS:7"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_red_sandstone_stairs/null_red_sandstone_stairs_7"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:block/red_sandstone_stairs"
+        }
+    }
+}

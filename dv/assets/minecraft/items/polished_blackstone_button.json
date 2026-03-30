@@ -1,0 +1,22 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "catharsis:data_type",
+        "data_type": "id",
+        "cases": [
+            {
+                "when": [
+                    "POLISHED_BLACKSTONE_BUTTON"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_polished_blackstone_button/null_polished_blackstone_button"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:block/polished_blackstone_button_inventory"
+        }
+    }
+}

@@ -1,0 +1,76 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "catharsis:data_type",
+        "data_type": "id",
+        "cases": [
+            {
+                "when": [
+                    "BRICK_STAIRS:1"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_brick_stairs/null_brick_stairs_1"
+                }
+            },
+            {
+                "when": [
+                    "BRICK_STAIRS:2"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_brick_stairs/null_brick_stairs_2"
+                }
+            },
+            {
+                "when": [
+                    "BRICK_STAIRS:3"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_brick_stairs/null_brick_stairs_3"
+                }
+            },
+            {
+                "when": [
+                    "BRICK_STAIRS:4"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_brick_stairs/null_brick_stairs_4"
+                }
+            },
+            {
+                "when": [
+                    "BRICK_STAIRS:5"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_brick_stairs/null_brick_stairs_5"
+                }
+            },
+            {
+                "when": [
+                    "BRICK_STAIRS:6"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_brick_stairs/null_brick_stairs_6"
+                }
+            },
+            {
+                "when": [
+                    "BRICK_STAIRS:7"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dv:block/null_brick_stairs/null_brick_stairs_7"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:block/brick_stairs"
+        }
+    }
+}
